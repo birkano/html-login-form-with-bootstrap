@@ -1,0 +1,36 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.login-form {
+    width: 320px;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+form, .form-control {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form-control:focus {
+    position: relative;
+    z-index: 2;
+
+}
+
+form input[type="email"]{
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+form input[type="password"] {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
